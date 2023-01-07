@@ -493,6 +493,16 @@ img.img-fluid {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+
+.skills__text {
+  color: #45505b;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .4rem;
+  text-align: center;
+  position: relative;
+}
+
 .skills__container {
   display: flex;
   justify-content: center;
@@ -519,8 +529,8 @@ img.img-fluid {
 }
 
 .skills__icon {
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 8.5rem;
+  height: 8.5rem;
 }
 
 .skills .progress .skill {

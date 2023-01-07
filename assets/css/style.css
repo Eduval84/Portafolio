@@ -491,13 +491,36 @@ img.img-fluid {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
+.skills__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skills__item {
+  width: 12rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s;
+  border: 1px solid transparent;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
   background: none;
   border-radius: 0;
+}
+
+.skills__icon {
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 .skills .progress .skill {
